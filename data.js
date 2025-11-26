@@ -10,7 +10,7 @@ const Estacoes = [
 const Cardapio = {
   fogo: [
     { id: "fogo_picanha", nome: "Picanha na Brasa (200g)", preco: 44.9, imagem: "https://media.istockphoto.com/id/179211898/pt/foto/delicioso-churrasco.webp?a=1&b=1&s=612x612&w=0&k=20&c=GuCkvCUx25GlNa4HhrKmNdkARPJo1AVnBKxCSuy0z30=" },
-    { id: "fogo_ancho", nome: "Bife Ancho Angus", preco: 52.9, imagem: "file:///C:/Users/adrie/Downloads/bife-de-vista-lateral-com-tomate-e-papel-e-molho-picante-na-placa-de-bife.jpg" },
+    { id: "fogo_ancho", nome: "Bife Ancho Angus", preco: 52.9, imagem: "https://minervafoods.com/wp-content/uploads/2022/12/bife_acho-1.jpg" },
     { id: "fogo_chorizo", nome: "Chorizo Argentino", preco: 48.9, imagem: "https://images.unsplash.com/photo-1600891964092-4316c288032e?q=80&w=1400&auto=format&fit=crop" },
     { id: "fogo_frango", nome: "Coxinha da Asa Marinada (6un)", preco: 26.9, imagem: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?q=80&w=1400&auto=format&fit=crop" },
     { id: "fogo_linguica", nome: "Linguiça Artesanal", preco: 21.9, imagem: "https://images.unsplash.com/photo-1703355333430-4c799ed364be?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bGluZ3VpJUMzJUE3YSUyMGFydGVzYW5hbHxlbnwwfHwwfHx8MA%3D%3D" },
