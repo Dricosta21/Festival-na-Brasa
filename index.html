@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Festival Na Brasa – Totem de Pedidos</title>
+  <link rel="icon" href="assets/favicon.svg" />
+  <link rel="stylesheet" href="styles.css" />
+  <!-- fonte Poppins e otimizações -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <meta name="theme-color" content="#FF6A3D">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar__brand" id="brandHome" tabindex="0" aria-label="Ir para início">
+      <div class="logo">🔥</div>
+      <div>
+        <div class="brand">Festival Na Brasa</div>
+        <div class="tagline">Peça no totem. Retire na estação.</div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container" id="app" tabindex="-1"></main>
+
+  <footer class="footer">
+    <small>Protótipo acadêmico © <span id="year"></span> Festival Na Brasa</small>
+    <nav class="links">
+      <a href="#" aria-label="Instagram">Instagram</a>
+      <a href="#" aria-label="Site oficial">Site</a>
+    </nav>
+  </footer>
+
+  <div id="bar" class="bottombar hidden" role="region" aria-live="polite">
+    <div class="summary">
+      <span>Total</span>
+      <strong id="barTotal">R$ 0,00</strong>
+    </div>
+    <button id="barAction" class="btn btn--primary">Ver carrinho →</button>
+  </div>
+
+  <script src="utils.js"></script>
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

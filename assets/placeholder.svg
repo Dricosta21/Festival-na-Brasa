@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="320" viewBox="0 0 512 320">
+  <defs><linearGradient id="g" x1="0" x2="1" y1="1" y2="0"><stop offset="0" stop-color="#fee2e2"/><stop offset="1" stop-color="#ffedd5"/></linearGradient></defs>
+  <rect width="512" height="320" fill="url(#g)"/>
+  <g fill="#9ca3af" font-family="monospace" font-size="20">
+    <text x="50%" y="50%" text-anchor="middle">imagem não disponível</text>
+  </g>
+</svg>

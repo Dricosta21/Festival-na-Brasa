@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Como funciona – Festival Na Brasa</title>
+  <link rel="icon" href="assets/favicon.svg" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <meta name="theme-color" content="#FF6A3D">
+</head>
+<body class="how-page">
+  <header class="topbar">
+    <div class="topbar__brand" role="button" tabindex="0" onclick="window.location.href='index.html'" aria-label="Ir para início">
+      <div class="logo">🔥</div>
+      <div>
+        <div class="brand">Festival Na Brasa</div>
+        <div class="tagline">Peça no totem. Retire na estação.</div>
+      </div>
+    </div>
+    <span style="flex:1"></span>
+  </header>
+
+  <main class="container how-container" id="content" tabindex="-1">
+    <section class="card card--soft how" aria-labelledby="como-funciona-title">
+      <h1 class="how__title" id="como-funciona-title">🔥 Como funciona</h1>
+      <p class="how__subtitle">Peça no totem ou pelo seu celular. Pagamento rápido e retirada fácil!</p>
+      <ol class="how__steps">
+        <li><strong>Escolha a estação</strong>: Carnes, acompanhamentos ou bebidas.</li>
+        <li><strong>Monte seu pedido</strong>: Selecione itens e quantidades.</li>
+        <li><strong>Pague</strong>: PIX, crédito ou débito.</li>
+        <li><strong>Retire na estação</strong>: Acompanhe com sua senha digital.</li>
+      </ol>
+      <div class="qr-area" role="note">
+        <div class="qr-placeholder">QR Code</div>
+        <p class="card-desc qr-hint">Escaneie para acessar via celular</p>
+      </div>
+      <div style="margin-top:16px;display:grid;justify-items:center">
+        <button class="btn btn--primary btn--large btn--no-underline" onclick="goToHome()" aria-label="Ir para escolher a estação">🔥 Peça agora →</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <small>Protótipo acadêmico © <span id="year"></span> Festival Na Brasa</small>
+    <nav class="links">
+      <a href="index.html" aria-label="Ir para estações">Estações</a>
+    </nav>
+  </footer>
+
+  <script src="utils.js"></script>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    
+    function goToHome() {
+      // limpar usando o util traduzido e navegar para a home (estações)
+      armazenamento.limpar();
+      window.location.href = 'index.html';
+    }
+  </script>
+</body>
+</html>
