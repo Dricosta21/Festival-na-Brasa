@@ -1,6 +1,6 @@
 // Estações e Cardápio (dados estáticos do protótipo)
 const Estacoes = [
-  { id: "fogo", nome: "Fogo & Brasa", desc: "Cortes premium, fogo alto e ponto perfeito", imagem: "https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=1400&auto=format&fit=crop" },
+  { id: "fogo", nome: "Fogo & Brasa", desc: "Cortes premium, fogo alto e ponto perfeito", imagem: "https://www.seara.com.br/wp-content/uploads/2025/09/quando-colocar-carne-na-churrasqueira-portal-minha-receita.jpg" },
   { id: "costela", nome: "Costela do Chef", desc: "Costela bovina low&slow que desmancha", imagem: "https://images.unsplash.com/photo-1553163147-622ab57be1c7?q=80&w=1400&auto=format&fit=crop" },
   { id: "defumados", nome: "Defumados", desc: "Brisket e fumaça de nogueira", imagem: "https://assets.epicurious.com/photos/54af436b4074bdfd06837a2d/1:1/w_1600,c_limit/51175220_smoked-brisket_1x1.jpg" },
   { id: "acompanhamentos", nome: "Acompanhamentos", desc: "Clássicos para completar", imagem: "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?q=80&w=1400&auto=format&fit=crop" },
