@@ -39,6 +39,8 @@ const carrinho = {
     idx >= 0 ? copia[idx].qtd += 1 : copia.push({ ...item, qtd: 1 });
     definirEstado({ carrinho: copia });
     atualizarBarrasUI();
+    // atualizar UI imediatamente quando estivermos na lista ou no carrinho
+    if (['lista','carrinho'].includes(estado.tela)) renderizar();
   },
   remover: (item) => {
     const copia = [...estado.carrinho];
@@ -47,6 +49,7 @@ const carrinho = {
     copia[idx].qtd === 1 ? copia.splice(idx, 1) : copia[idx].qtd -= 1;
     definirEstado({ carrinho: copia });
     atualizarBarrasUI();
+    if (['lista','carrinho'].includes(estado.tela)) renderizar();
   },
   total: () => estado.carrinho.reduce((s, i) => s + i.preco * i.qtd, 0),
   contar: () => estado.carrinho.reduce((s, i) => s + i.qtd, 0),
